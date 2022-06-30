@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head_div{
+    margin:0;
+    height: 10vh;
+    display: flex;
+    flex-wrap: nowrap; 
+}
+.img{
+    margin-left: 15%;
+    margin-top: 25px;
+    padding-right: 20px;
+    width: 42px;
+    height: 35px;
+}
+.tag{
+    margin-top: 30px;
+    padding-right: 18px;
+    text-decoration: none;
+    color: black;  
+}
+#basic-navbar-nav{
+    margin-left: 80%;
+}
+.tag2{
+    text-decoration: none;
+}
+.img1{
+    /* margin-left: 70%; */
+    text-decoration: none;
+    margin-top: 12px;
+    width: 50px;
+    height: 50px;
+}
+.head_div p{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+.img2{
+    
+    margin-top: 24px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.img3{
+    
+    margin-top: 29px;
+    width: 20px;
+    height: 18px;
+    margin-left: 10px;
+}
+
+/* NAVBAR SECTION */
+
+.header_div{
+    background-color: rgb(173, 168, 168);
+    height: 60vh;
+}
+
+.navs{
+    margin-left: 32%;
+    
+} 
+.navbar h4{
+    margin-left: 20px;
+    color: rgb(20, 20, 134);
+    font-size: 40px;
+    font-weight: 700;
+} 
+#collasible-nav-dropdown{
+    color: white;
+}
+.head{
+    position: relative;
+    z-index: 1;
+}
+
+.photo{
+    position: absolute;
+    z-index: 2;
+    left: 19%;
+    top: 21%;
+    opacity: .9;
+}
+
+/* Paragraph */
+
+.paragraph_div{
+    position: absolute;
+    z-index: 3;
+    left: 10px;
+    top: 33%;
+    display: flex;
+}
+.first{
+    margin-left: 15px;
+}
+.first p {
+    color: white;
+}
+.second{
+    margin-left: 60px;
+}
+.second h1{
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    font-size: 60px;
+    font-family:  sans-serif;
+}
+.second p{
+    color: white;
+    text-align: left;
+    font-family:  sans-serif;
+}
+.second a{
+    color: white;
+}
+.second img{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+
+@media only screen and (max-width: 1200px)
+and (min-device-width : 1024px){
+    .main_div{
+        width: 100%;
+    }
+}
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px) {
+    .main_div{
+        width: 75;;
+    }
+    .photo{
+        width: 75%;
+    }
+}
+@media only screen   
+and (min-device-width : 360px)   
+and (max-device-width : 640px) {
+    .main_div{
+        width: 50%;
+    }
+}
